@@ -1,0 +1,14 @@
+yolo_model:
+
+  config_file:
+    name: tartanauv-yolov3-tiny.cfg
+  weight_file:
+    name: tartanauv-yolov3-tiny_800000.weights
+  threshold:
+    value: 0.1
+  detection_classes:
+    names:
+      - Vet
+      - asw
+      - dra
+      - jia
